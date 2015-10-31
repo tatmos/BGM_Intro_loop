@@ -1,4 +1,14 @@
 # BGM_Intro_loop
 超シンプルにイントロ付きループを実現するスクリプトの例です。
 
-2015-10-31: IPカタログ（https://open.channel.or.jp/）
+必要なのは 
+BGMController.cs
+になります。
+
+自分のプロジェクトの
+BGMをつけたいシーンのカメラか空のGameObjectに
+BGMController.csをAddCompornentで追加して
+AuidoClipをintroとloopにセットするだけで、
+イントロ付きループが再生できます。
+
+IPカタログゲームジャム(https://open.channel.or.jp/gamejam.php)で使えるかと思います。
