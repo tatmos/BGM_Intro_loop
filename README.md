@@ -11,7 +11,7 @@ BGMController.csをAddCompornentで追加して
 AuidoClipをintroとloopにセットするだけで、
 イントロ付きループが再生できます。
 
-IPカタログゲームジャム https://open.channel.or.jp/gamejam.php 
+カタログIPゲームジャム https://open.channel.or.jp/gamejam.php 
 で使えるかと思います。
 
 動画：　http://www.nicovideo.jp/watch/sm27490070
