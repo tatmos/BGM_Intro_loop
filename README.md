@@ -15,3 +15,4 @@ AuidoClipをintroとloopにセットするだけで、
 で使えるかと思います。
 
 動画：　http://www.nicovideo.jp/watch/sm27490070
+Qiita:　http://qiita.com/tatmos/items/d06ce8af00ad3a0d0ac1
