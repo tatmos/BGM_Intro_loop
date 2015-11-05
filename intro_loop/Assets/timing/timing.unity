@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 8300000, guid: b088d99ffb6674a75b2360e4a2bf3919, type: 3}
-  delay: .100000001
+  delay: .5
   interval: 1
 --- !u!4 &34169292
 Transform:
