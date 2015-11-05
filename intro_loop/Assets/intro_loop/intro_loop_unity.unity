@@ -114,6 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   intro: {fileID: 8300000, guid: 6a892874aa6aa4f07ac3e74b832938d9, type: 3}
   loop: {fileID: 8300000, guid: ee998669113c44187a49a6eff3b68826, type: 3}
+  delay: .100000001
 --- !u!4 &277380128
 Transform:
   m_ObjectHideFlags: 0
