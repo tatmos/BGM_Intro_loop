@@ -35,7 +35,7 @@ public class TimingController : MonoBehaviour {
 	}
 	void Update()
 	{
-		if(click != null && AudioSettings.dspTime > nextScheduledTime-(interval/2)){
+		if(click != null && AudioSettings.dspTime > nextScheduledTime-interval){
 			audioSource[playerIndex%2].playOnAwake = false;
 			//audioSource[playerIndex%2].clip = click;
 			audioSource[playerIndex%2].PlayScheduled(nextScheduledTime);
@@ -45,6 +45,10 @@ public class TimingController : MonoBehaviour {
 			nextScheduledTime = AudioSettings.dspTime + interval + interval;
 			Debug.Log(string.Format("[count] {0} dspTime : {1,4:F3} [delay] {2,4:F3} [next] {3,4:F3} [deltaTime] {4,4:F4} [difference] {5,4:f4} [interval] {6,4:f4} ", 
 			                        playerIndex,	AudioSettings.dspTime , delay , nextScheduledTime ,Time.deltaTime,AudioSettings.dspTime - tmpTime,interval));
+
+			if( interval < Time.deltaTime){
+				Debug.LogError("late!! ");
+			}
 		}
 	}
 }
